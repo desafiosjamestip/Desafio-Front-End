@@ -54,12 +54,12 @@ Após, envie e-mail para marcio.tavares@jamestip.com.br, com cópia para torres@
 - Boa apresentação (Layout Clean e Profissional)
 - Boas práticas da arquitetura da informação
 - Código limpo e organização
-- Documentação de código (Tip: Podem ser “comentários” no código)
+- Documentação de código *(Tip: Podem ser “comentários” no código)*
 - Capacidade de tomada de decisões técnicas
 
 # Desafio Bônus
 Implementar a mesma aplicação utilizando de preferência um dos seguintes Frameworks (React.js OU Vue.js OU Angular). 
 Também podem ser utilizados quaisquer outros Frameworks visuais.
 
-                                                                    Good luck!
+                                                                                    Good luck!
 
