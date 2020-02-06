@@ -6,7 +6,7 @@ Este tem por objetivo medir seu nível de conhecimento com tecnologias de desenv
 
 ## Introdução
 Um de nossos projetos internos necessita de uma “cara nova” para que os clientes possam acessar e gerenciar informações necessárias para as operações do dia-a-dia da suas empresas. Para isto, você, no papel de Desenvolvedor Front End, foi acionado para elaborar um novo Portal para os Clientes do James Tip.
-Seu objetivo é criar um simples app que deve conter duas páginas, uma que exibe um formulário para cadastro com os campos abaixo, e outra que liste os dados cadastrados:
+Seu objetivo é criar um simples app que deve conter (no mínimo) duas páginas, uma que exibe um formulário para cadastro com os campos abaixo, e outra que liste os dados cadastrados:
 - Código do Produto
 - Categoria do Produto (ex.: Eletrônico)
 - Nome do Produto
@@ -14,7 +14,6 @@ Seu objetivo é criar um simples app que deve conter duas páginas, uma que exib
 - Valor do Produto
 
 Para isto, foram estipuladas algumas necessidades, as quais devem ser atendidas:
-- Implementação de compatibilidade entre navegadores de aplicativos da web
 - Projetar interfaces de usuário para alcançar objetivos de diversos usuários finais
 - Determinar o layout e a apresentação do aplicativo/página
 - Proporcionar uma experiência de usuário agradável, combinada com alto desempenho, segurança e capacidade de resposta
@@ -22,13 +21,14 @@ Para isto, foram estipuladas algumas necessidades, as quais devem ser atendidas:
 - Otimizar aplicativos para máxima velocidade e escalabilidade
 - Realizar a engenharia da experiência de design de interação de elementos na interface do usuário
 - Garantir uma navegação intuitiva e com acessibilidade
-- A principal ideia aqui é que você faça por você mesmo (DIY).
+- A principal ideia aqui é que você faça por você mesmo *(DIY)*.
 
 
 ## Requisitos técnicos
 Para realização deste desafio, deverão ser observados os seguintes requisitos:
 - A aplicação deverá ser Single Page;
 - O Layout deverá ser TableLess; 
+- Implementação de compatibilidade entre navegadores de aplicativos da web;
 - Deve ser possível editar, listar e excluir os dados cadastrados pelo formulário;
 - Fazer a persistência dos dados no localStorage ou IndexedDB;
 - SOMENTE é permitido a utilização de bibliotecas de estilo (ex.: Bootstrap);
