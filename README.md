@@ -40,7 +40,7 @@ Para realização deste desafio, deverão ser observados os seguintes requisitos
 Ao final do desafio, você deverá realizar um "pull request" neste repositório, o qual deverá conter o seguinte conteúdo:
 - Todo e qualquer arquivo necessário para que possamos reproduzir a aplicação criada em um servidor web simples;
 - Arquivo README.md, contendo:
-    -Breve descrição das funcionalidades da aplicação entregue;
+    - Breve descrição das funcionalidades da aplicação entregue;
     - Ferramentas utilizadas, e o por que estas foram escolhidas para a realização do desafio;
     - Decisões adotadas durante o planejamento e execução do desafio, justificando-as.
     
@@ -61,5 +61,5 @@ Após, envie e-mail para marcio.tavares@jamestip.com.br, com cópia para torres@
 Implementar a mesma aplicação utilizando de preferência um dos seguintes Frameworks (React.js OU Vue.js OU Angular). 
 Também podem ser utilizados quaisquer outros Frameworks visuais.
 
-                                        Good luck!
+                                                                    Good luck!
 
