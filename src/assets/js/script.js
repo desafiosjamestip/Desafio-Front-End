@@ -5,21 +5,24 @@
 
 function randomID() {
     //Generates random iD
-    var rand = Math.random().toString(26).substring(2, 10) + Math.random().toString(26).substring(2, 10);
+    var rand = Math.random().toString(10).substring(2, 6) + Math.random().toString(10).substring(2, 8);
     
     document.getElementById('productCode').value = rand
 }
 
 function addProduct() {
+    var frm = document.getElementById('formAddProduct');
     const productCode = document.querySelector('#productCode').value
     const category = document.querySelector('#category').value
     const productname = document.querySelector('#productname').value
+    const providersname = document.querySelector('#providerName').value
     const productPrice = document.querySelector('#productPrice').value
 
     const product = {
         id: productCode,
         category,
         productname,
+        providersname,
         productPrice
     }
     
@@ -35,5 +38,6 @@ function addProduct() {
         productList.push(product)
         localStorage.setItem('products',JSON.stringify(productList))
     }
+    frm.reset()
+    alertify.success('Registered Product!')
 }
-

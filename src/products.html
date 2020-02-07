@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <title>JamesTip | Products</title>
 </head>
 <body>
@@ -20,9 +21,27 @@
             </div>
         </div>
 
-        <div id="row container">
-            <h2>Product List</h2>
-            <ul id="product_wrapper"></ul>
+        <!--Tabela com a lista de dados-->
+        <div class="row content">
+            <div class="col-md-12">
+                <h2>Product List</h2>
+                <div style="overflow-x: auto;">
+                    <table id="product_wrapper">
+                        <input type="text" id="myInput" onkeyup="filterProduct()" placeholder="Search for names.." title="Type in a name">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Category</th>
+                                <th>Name</th>
+                                <th>Provider Name</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="product-items"></tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <div class="row footer">
@@ -59,5 +78,6 @@
             <!-- Copyright -->
         </div>
     </div>
+    <script src="assets/js/data.js"></script>
 </body>
 </html>
