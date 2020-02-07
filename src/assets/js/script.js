@@ -1,11 +1,26 @@
-// Store data
-var product = 'The data that I want to store for later.';
-localStorage.setItem('myDataKey', product);
+function addProduct() {
+    const productCode = document.querySelector('#productCode').value
+    const category = document.querySelector('#category').value
+    const productname = document.querySelector('#productname').value
+    const productPrice = document.querySelector('#productPrice').value
 
-// Get data
-var data = localStorage.getItem('myDataKey');
+    const product = {
+        id: productCode,
+        category,
+        productname,
+        productPrice
+    }
+    
+    const store = localStorage.getItem('products')
 
-// const prod = document.getElementById('product').innerHTML = product
+    let productList = []
 
-// Remove data
-localStorage.removeItem('myDatakey');
+    if(!store) {
+        productList.push(product)
+        localStorage.setItem('products',JSON.stringify(productList))
+    } else {
+        productList = JSON.parse(store)
+        productList.push(product)
+        localStorage.setItem('products',JSON.stringify(productList))
+    }
+}
