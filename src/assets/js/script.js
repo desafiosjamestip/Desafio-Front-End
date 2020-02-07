@@ -1,3 +1,15 @@
+//Será executada automaticamente
+(function() {
+    randomID()
+})();
+
+function randomID() {
+    //Generates random iD
+    var rand = Math.random().toString(26).substring(2, 10) + Math.random().toString(26).substring(2, 10);
+    
+    document.getElementById('productCode').value = rand
+}
+
 function addProduct() {
     const productCode = document.querySelector('#productCode').value
     const category = document.querySelector('#category').value
@@ -24,3 +36,4 @@ function addProduct() {
         localStorage.setItem('products',JSON.stringify(productList))
     }
 }
+
