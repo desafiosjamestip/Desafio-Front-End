@@ -835,7 +835,7 @@ input[type=text], select {
   margin-bottom: 16px; 
 }
 
-input[type=submit] {
+.productform button {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
