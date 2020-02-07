@@ -22,7 +22,7 @@
 
         <div class="row productform">
             <div class="col-md-12">
-                <form action="">
+                <form onsubmit="event.preventDefault(); addProduct();">
                     <div class="">
                         <label for="fname"># Product code</label>
                         <input type="text" id="productCode" name="productCode" required placeholder="Insert product code.." disabled>
@@ -55,9 +55,9 @@
                         <label for="lname">Price</label>
                         <input type="number" id="productPrice" name="productPrice" min="1" step="any" />
                     </div>                 
-                    <input type="submit" value="Submit">   
+                    <button id="saveProduct" type="submit">Submit</button>
                 </form>
-            </div>
+            </button>
         </div>
     </div>
 
