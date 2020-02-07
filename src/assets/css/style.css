@@ -820,10 +820,15 @@ body {
   margin-top: 20px;
 }
 
+.productform form {
+  background-color: #cccc;
+  padding: 10px;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #ff5e00;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -848,7 +853,7 @@ input[type=submit]:hover {
 input[type=number] {
   width: 25%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #ff5e00;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -859,4 +864,48 @@ input[type=number] {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+
+/*Footer */
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #1b1b1b;
+  color: white;
+  text-align: center;
+}
+.footer-content p {
+  text-align: justify;
+}
+
+.footer h5{
+  padding-left: 10px;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+  text-transform: uppercase;
+}
+.footer a {
+  color: #ff5e00;
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer ul li{
+  padding: 3px 0;
+  list-style-type: none;
+}
+.footer ul li a:hover{
+  color:#eeeeee;
+}
+
+.footer-links ul {
+  padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+
+.footer-copyright {
+
 }
