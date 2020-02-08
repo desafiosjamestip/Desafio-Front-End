@@ -5,7 +5,7 @@
 
 function randomID() {
     //Generates random iD
-    var rand = Math.random().toString(10).substring(2, 6) + Math.random().toString(10).substring(2, 8);
+    var rand = Math.floor(Math.random()*(1000002 - 1 + 1)) + 1;
     
     document.getElementById('productCode').value = rand
 }
@@ -39,5 +39,6 @@ function addProduct() {
         localStorage.setItem('products',JSON.stringify(productList))
     }
     frm.reset()
+    randomID()
     alertify.success('Registered Product!')
 }
