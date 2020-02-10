@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <title>JamesTip | Products</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row topnav">
+            <div class="col-md-12">
+                <div class="">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="products.html">Product</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Tabela com a lista de dados-->
+        <div class="row content">
+            <div class="col-md-12">
+                <h2>Product List</h2>
+                <input type="text" id="myInput" onkeyup="filterProduct()" placeholder="Search for names.." title="Type in a name">
+                <div style="overflow-x: auto;">
+                    <table id="product_wrapper">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Category</th>
+                                <th>Name</th>
+                                <th>Provider Name</th>
+                                <th>Price R$</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="product-items"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer">        
+            <!-- Copyright -->
+            <div class="col-md-12 footer-copyright">© 2020 Copyright:
+                <a href="#">JameTip</a>
+            </div>
+            <!-- Copyright -->
+        </div>
+    </div>
+    <script src="assets/js/data.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Aviso: Crawling este site é proibido a menos que tenha permissão expressa por escrito.
+# Contato: fulanoX@jamestip.com.br
+
+User-agent: *
+Sitemap: https://www.jamestip.com.br/sitemap.xml
+Disallow: /admin
+allow: /
+
